@@ -4,6 +4,63 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
     background-color: darkmagenta;
+} */
+
+
+
+.all-page{
+    height: 100vh;
+    background:linear-gradient(purple, black);
+    /* border: 10px solid red; */
+    margin: 0 auto;
+}
+
+
+.text{
+    height: 10%;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    color: goldenrod;
+    border: 2px dotted goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border-radius: 20% 10%;
+    padding: 1%;
+    font-weight: 300;
+    font-size: smaller;
+}
+
+#headline{
+    color: goldenrod;
+    border: 2px solid goldenrod;
+    border-radius: 10% 20%;
+    position: absolute;
+    height: 10%;
+    width: 50%;
+    left: 25%;
+    top: 10%;
+
+}
+
+.label{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: goldenrod;
+    margin: 1%;
+}
+
+input{
+    width:50%;
+    background-color: purple;
+    border: none;
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
 }
