@@ -12,7 +12,7 @@
 
 .all-page{
     height: 100vh;
-    background:linear-gradient(purple, black);
+    background:linear-gradient(red, yellow);
     /* border: 10px solid red; */
     margin: 0 auto;
 }
